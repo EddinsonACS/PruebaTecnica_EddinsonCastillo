@@ -1,38 +1,38 @@
-# 📱 MB - Mobile Banking Technical Test
+# 📱 MB - Prueba Técnica de Mobile Banking
 
 <p align="center">
   <img src="https://img.shields.io/badge/React--Native-0.84.0-blue?style=for-the-badge&logo=react" alt="React Native" />
   <img src="https://img.shields.io/badge/TypeScript-5.8.3-blue?style=for-the-badge&logo=typescript" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Architecture-Modular-green?style=for-the-badge" alt="Architecture" />
+  <img src="https://img.shields.io/badge/Arquitectura-Modular-green?style=for-the-badge" alt="Arquitectura" />
 </p>
 
-## 🚀 Overview
+## 🚀 Resumen
 
-This repository contains a professional mobile banking application prototype developed as a **Technical Test** for a **Semi-Senior/Senior React Native Developer** position. The project demonstrates advanced knowledge in React Native, modular architecture, and professional coding standards.
+Este repositorio contiene un prototipo profesional de una aplicación de banca móvil desarrollado como una **Prueba Técnica** para la posición de **Desarrollador React Native Semi-Senior/Senior**. El proyecto demuestra conocimientos avanzados en React Native, arquitectura modular y estándares de codificación profesionales.
 
-### Key Objectives
+### Objetivos Clave
 
-- **Modern UI/UX**: Premium design with smooth transitions and professional aesthetics.
-- **Scalability**: Decoupled architecture following best practices for financial applications.
-- **Type Safety**: Full TypeScript implementation ensures robust data handling and fewer runtime errors.
+- **UI/UX Moderna**: Diseño premium con transiciones suaves y estética profesional.
+- **Escalabilidad**: Arquitectura desacoplada siguiendo las mejores prácticas para aplicaciones financieras.
+- **Seguridad de Tipos**: Implementación completa en TypeScript que asegura un manejo robusto de datos y menos errores en tiempo de ejecución.
 
 ---
 
-## 🛠️ Getting Started
+## 🛠️ Empezando
 
-### Prerequisites
+### Requisitos Previos
 
-Ensure you have the React Native development environment configured for iOS and Android.
+Asegúrate de tener el entorno de desarrollo de React Native configurado para iOS y Android.
 
-### 1️⃣ Installation
+### 1️⃣ Instalación
 
 ```bash
 npm install
 ```
 
-### 2️⃣ Environment Check
+### 2️⃣ Verificación del Entorno
 
-Validate your local setup:
+Valida tu configuración local:
 
 ```bash
 npx react-native doctor
@@ -40,20 +40,20 @@ npx react-native doctor
 
 ---
 
-## 📜 Development Scripts
+## 📜 Scripts de Desarrollo
 
-We use custom automation scripts to ensure clean builds and efficient development cycles:
+Usamos scripts de automatización personalizados para asegurar builds limpios y ciclos de desarrollo eficientes:
 
-| Script                             | Purpose                                         |
-| :--------------------------------- | :---------------------------------------------- |
-| `bash scripts/sh-build-android.sh` | 🏗️ Clean build and run on **Android**.          |
-| `bash scripts/sh-build-ios.sh`     | 🏗️ Dependency sync (`pods`) and run on **iOS**. |
-| `bash scripts/sh-clean-android.sh` | 🧹 Deep purge of Android build artifacts.       |
-| `bash scripts/sh-clean-ios.sh`     | 🧹 Deep purge of iOS build artifacts and Pods.  |
+| Script                             | Propósito                                                          |
+| :--------------------------------- | :----------------------------------------------------------------- |
+| `bash scripts/sh-build-android.sh` | 🏗️ Build limpio y ejecución en **Android**.                        |
+| `bash scripts/sh-build-ios.sh`     | 🏗️ Sincronización de dependencias (`pods`) y ejecución en **iOS**. |
+| `bash scripts/sh-clean-android.sh` | 🧹 Purga profunda de los artefactos de build de Android.           |
+| `bash scripts/sh-clean-ios.sh`     | 🧹 Purga profunda de los artefactos de build de iOS y Pods.        |
 
 ---
 
-## 💻 Running the App
+## 💻 Ejecutando la App
 
 ### 📱 Android
 
@@ -69,7 +69,7 @@ npm run ios o npx react-native run-ios
 
 ---
 
-## 🌐 API Configuration (`ApiConfig.ts`)
+## 🌐 Configuración de la API (`ApiConfig.ts`)
 
 Para que la aplicación consuma correctamente la API local, debes configurar `services/ApiConfig.ts` dependiendo de dónde estés corriendo la app:
 
@@ -86,14 +86,14 @@ const IS_PHYSICAL_DEVICE = true; // Cambiar a true cuando pruebes en un disposit
 
 ---
 
-## 💎 Professional Standards
+## 💎 Estándares Profesionales
 
-- **Clean Code**: Zero legacy comments, logs, or debugging artifacts.
-- **Unified Design**: Global color system and reusable theme constants.
-- **Performance**: Optimized rendering and modular screen management.
+- **Código Limpio**: Cero comentarios legacy, logs o artefactos de depuración.
+- **Diseño Unificado**: Sistema global de colores y constantes de tema reutilizables.
+- **Rendimiento**: Renderizado optimizado y gestión de pantallas modular.
 
 ---
 
-## 🤝 Acknowledgments
+## 🤝 Agradecimientos
 
-Thank you for the opportunity to demonstrate my technical capabilities through this evaluation.
+Gracias por la oportunidad de demostrar mis capacidades técnicas a través de esta evaluación.
